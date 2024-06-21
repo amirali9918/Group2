@@ -5,12 +5,11 @@ public class HelloWorldWithThread {
 //
 //        myThread1.start();
 //        myThread2.start();
-        for (int i = 0; i < 5; i++) {
             MyThread myThread = new MyThread();
             myThread.start();
-            MyThread2 thread2 = new MyThread2();
-            thread2.run();
-        }
+//            MyThread2 thread2 = new MyThread2();
+//            thread2.run();
+
 
     }
 
